@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<IncidentDefs>
+
+	<IncidentDef>
+		<defName>BoulderHit</defName>
+    <targetType>World</targetType>
+		<WorkerClass>IncidentWorker_BoulderHit</WorkerClass>
+    <baseChance>5.5</baseChance>
+	<category>ThreatSmall</category>
+	</IncidentDef>
+	
+	<IncidentDef>
+		<defName>BoulderMassHit</defName>
+    <targetType>World</targetType>
+		<WorkerClass>IncidentWorker_BoulderMassHit</WorkerClass>
+    <baseChance>0.15</baseChance>
+		<minRefireDays>30</minRefireDays>
+    <category>ThreatBig</category>
+	</IncidentDef>
+
+</IncidentDefs>
